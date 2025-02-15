@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Install system dependencies
+# Install system dependencies required for dlib
 apt-get update
 apt-get install -y --no-install-recommends \
     build-essential \
